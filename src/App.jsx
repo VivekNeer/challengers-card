@@ -56,29 +56,29 @@ function App() {
             </div>
           </div>
           <div className='lowerHalf'>
-            <div>
+            <div className='content'>
               <p className='features'>FEATURES</p>
-              <p className='disc'>Everything in basic plan...</p>
+              <p className='disc below'>Everything in basic plan...</p>
             </div>
             <div className='list'>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Access to basic features</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Basic navigation and analytics</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Up to 10 individual users</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>20 GB individual data each user</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Basic chat and email support</p>
               </div>
             </div>
@@ -103,30 +103,30 @@ function App() {
             </div>
           </div>
           <div className='lowerHalf'>
-            <div>
+            <div className='content'>
               <p className='features'>FEATURES</p>
-              <p className='disc'>Everything in basic plan...</p>
+              <p className='disc below'>Everything in basic plan...</p>
             </div>
             <div className='list'>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>200+ integrations</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
-                <p className='disc'>Advanced reporting and analytics</p>
+                <img className='tick' src={tick} alt='tick mark'></img>
+                <p className='disc'>Advanced analytics</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Up to 20 individual users</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>40 GB individual data each user</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
-                <p className='disc'>Priority chat and customer support</p>
+                <img className='tick' src={tick} alt='tick mark'></img>
+                <p className='disc'>Priority customer support</p>
               </div>
             </div>
           </div>
@@ -150,30 +150,30 @@ function App() {
             </div>
           </div>
           <div className='lowerHalf'>
-            <div>
+            <div className='content'>
               <p className='features'>FEATURES</p>
-              <p className='disc'>Everything in Business plan...</p>
+              <p className='disc below'>Everything in Business plan...</p>
             </div>
             <div className='list'>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Advanced hosting functionality</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Auto log and data registry</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Unlimited individual users</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
+                <img className='tick' src={tick} alt='tick mark'></img>
                 <p className='disc'>Unlimited individual data</p>
               </div>
               <div className='feat'>
-                {/* <img className='tick' src={tick} alt='tick mark'></img> */}
-                <p className='disc'>Personalized and priority support</p>
+                <img className='tick' src={tick} alt='tick mark'></img>
+                <p className='disc'>Personalized customer support</p>
               </div>
             </div>
           </div>

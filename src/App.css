@@ -18,8 +18,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; /* Center items vertically */
+  align-items: center;
 }
+
 .navbar.shadow {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -95,8 +96,8 @@ img{
 
 
 .card {
-  margin: 20px;
-  width: 26%;
+  margin: 1em;
+  width: 27%;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #333;
@@ -214,4 +215,127 @@ p {
 
 .yellow:hover{
   background-color:orange;
+}
+
+.lowerHalf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features {
+  margin-top: 0.6em;
+  font-weight: bold;
+  color: #fff;
+  padding: 0;
+}
+
+.below {
+  margin-left: 2em;
+}
+
+.feat {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tick {
+  width: 20px; 
+  height: 20px;
+  margin-right: 0; 
+}
+
+@media (max-width: 768px) {
+  .b1 {
+    margin: 0 15px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+/* Card styles */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.card {
+  margin: 1em;
+  width: 27%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #333;
+}
+
+/* Other styles */
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.8em;
+}
+
+.dollar {
+  font-size: 3em;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  color: #d3b7b7;
+}
+
+.duration p {
+  margin: 0;
+}
+
+.features {
+  margin-top: 0.6em;
+  font-weight: bold;
+  color: #fff;
+  padding: 0;
+}
+
+.feat {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tick {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+}
+
+/* Keyframes for rainbow animation */
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  16% { color: #ff8000; }
+  32% { color: #ffff00; }
+  48% { color: #80ff00; }
+  64% { color: #00ff00; }
+  80% { color: #00ff80; }
+  100% { color: #00ffff; }
 }
