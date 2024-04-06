@@ -30,7 +30,7 @@
     margin-right: auto;
 }
 
-button {
+.b1 {
   border: none;
   outline: none;
   background-color: transparent;
@@ -53,7 +53,7 @@ button {
   100% { color: #00ffff; }
 }
 
-button:hover {
+.b1:hover {
   animation: rainbow 1s infinite;
   cursor: pointer;
 }
@@ -79,4 +79,139 @@ img{
 
 .navbar img:hover {
   transform: scale(1.1);
+}
+
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+
+
+.card {
+  margin: 20px;
+  width: 26%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #333;
+}
+
+.two {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.one , .three{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+}
+
+.upperHalf , .lowerHalf {
+  display: flex;
+  flex-direction: column;
+}
+
+.planName{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1.8em;
+}
+
+.plan{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding-top:1em;
+  color:#c75e5e;
+}
+
+p {
+  margin: 0;
+  color: #d3b7b7;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.8em;
+}
+
+.dollar {
+  font-size: 3em;
+  font-weight: 600;
+  margin-right: 10px;
+  color:#ffffff;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  color: #d3b7b7;
+}
+
+.duration p {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0.6em;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+}
+
+.btn {
+  animation: pulse-border 1s infinite;
+  border: 2px solid #e67e22;
+  color: #e67e22;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: #e67e22;
+  }
+  50% {
+    border-color: #3498db;
+  }
+  100% {
+    border-color: #e67e22;
+  }
+}
+.yellow {
+  animation: pulse-border 1s infinite;
+  border: 2px solid #e67e22;
+  background-color:orange;
+  color: white;
+}
+
+.yellow:hover{
+  background-color:orange;
 }
