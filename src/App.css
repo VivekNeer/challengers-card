@@ -256,86 +256,30 @@ p {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+  }
+
+  .navbar img {
+    margin: 10px 0;
+  }
+
   .b1 {
-    margin: 0 15px;
+    margin: 0;
+    padding: 10px;
   }
 
-  .buttons {
+  .cards {
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
   }
-}
 
-/* Card styles */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1em;
-}
-
-.card {
-  margin: 1em;
-  width: 27%;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #333;
-}
-
-/* Other styles */
-.price {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 1.8em;
-}
-
-.dollar {
-  font-size: 3em;
-  font-weight: 600;
-  margin-right: 10px;
-  color: #ffffff;
-}
-
-.duration {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 0;
-  color: #d3b7b7;
-}
-
-.duration p {
-  margin: 0;
-}
-
-.features {
-  margin-top: 0.6em;
-  font-weight: bold;
-  color: #fff;
-  padding: 0;
-}
-
-.feat {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.tick {
-  width: 20px;
-  height: 20px;
-  margin-right: 0;
-}
-
-/* Keyframes for rainbow animation */
-@keyframes rainbow {
-  0% { color: #ff0000; }
-  16% { color: #ff8000; }
-  32% { color: #ffff00; }
-  48% { color: #80ff00; }
-  64% { color: #00ff00; }
-  80% { color: #00ff80; }
-  100% { color: #00ffff; }
+  .card {
+    width: 90%;
+  }
 }
