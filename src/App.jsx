@@ -1,4 +1,5 @@
 import './App.css'
+import { motion } from "framer-motion";
 import hamburger from './assets/hamburger.svg'
 import cart from './assets/cart.svg'
 import fourdots from './assets/fourdots.svg'
@@ -37,7 +38,15 @@ function App() {
         </div>
       </div>
       <div className='cards'>
-        <div className='card one'>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: 'spring',
+            stiffness: 260,
+            damping: 20
+          }}
+          className='card one'>
           <div className='upperHalf'>
             <div className='planName'>
               <p className='plan'>Basic Plan</p>
@@ -83,8 +92,17 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div className='card two'>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: 'spring',
+            stiffness: 260,
+            damping: 20
+          }}
+          className='card one'
+        >
         <div className='upperHalf'>
             <div className='planName'>
               <p className='plan'>Business Plan</p>
@@ -130,8 +148,17 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div className='card three'>
+        </motion.div>    
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: 'spring',
+            stiffness: 260,
+            damping: 20
+          }}
+          className='card one'
+          >
         <div className='upperHalf'>
             <div className='planName'>
               <p className='plan'>Enterprise Plan</p>
@@ -177,7 +204,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   )
